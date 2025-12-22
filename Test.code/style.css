@@ -1,0 +1,20 @@
+/* External Styles (Tashqi stillar). */
+
+.external {
+    color: darkturquoise;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.external_Style-one {
+    font-size: 22px;
+    color: navy;
+    text-align: center;
+}
+
+.external_Style-two {
+    background-color: lightgray;
+    padding: 15px;
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+}
+
