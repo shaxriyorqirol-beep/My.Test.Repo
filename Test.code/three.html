@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div va span elementlari.</title>
+</head>
+<!-- Body -->
+
+<body>
+    <h1>HTML da div va span elementlari</h1>
+
+    <div style="background-color: lightblue; padding: 20px; margin-bottom: 20px;">
+        <h2>Div elementi misoli</h2>
+        <p>Bu yerda div elementi blok darajasidagi konteyner sifatida ishlatilgan.</p>
+        <p>Div elementi ichida bir nechta elementlar joylashishi mumkin.</p>
+    </div>
+    <hr>
+
+    <p>Quyidagi matnda <span style="color: red; font-weight: bold;">span elementi</span> ishlatilgan.</p>
+    <p>Span elementi inline darajasidagi konteyner bo'lib, u matn ichida kichik qismlarni ajratib ko'rsatish uchun
+        ishlatiladi.</p>
+    <hr>
+
+    <!-- Forms tagi bilan tanishish. -->
+
+    <h1>Forms tagi bilan tanishish.</h1>
+    <form action="#" method="get">
+        <label for="name">Ismingiz:</label>
+        <input type="text" id="name" name="name" placeholder="Ismingizni kiriting"><br><br>
+
+        <label for="email">Email manzilingiz:</label>
+        <input type="email" id="email" name="email" placeholder="Email manzilingizni kiriting"><br><br>
+
+        <label for="password">Parol:</label>
+        <input type="password" id="password" name="password" placeholder="Parolingizni kiriting"><br><br>
+
+        <label for="Sana">Tug'ilgan sana:</label>
+        <input type="date" id="Sana" name="Sana"><br><br>
+
+        <label for="checkbox">Dasturchi</label>
+        <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+        <label for="erkak">Erkak</label>
+        <input type="radio" id="erkak" name="gender" value="erkak">
+
+        <label for="ayol">Ayol</label>
+        <input type="radio" id="ayol" name="gender" value="ayol"><br><br>
+
+        <label for="file">Rasmingizni kiriting</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <label for="xabar">Qisqa xabar qoldiring:</label>
+        <textarea id="xabar" name="xabar" rows="4" cols="50" placeholder="Xabaringizni kiriting"></textarea><br><br>
+        <button type="submit">Yuborish</button>
+        <hr>
+
+        <label for="tajriba">Tajriba:</label>
+        <select name="experince" id="tajriba">
+            <option value="beginner">Boshlang'ich</option>
+            <option value="intermediate">O'rta</option>
+            <option value="expert">Mutaxassis</option>
+        </select>
+    </form>
+</body>
+
+</html>
